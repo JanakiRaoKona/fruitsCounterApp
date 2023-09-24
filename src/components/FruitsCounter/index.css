@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.container {
+  background-color: #ffd569;
+  padding: 10px;
+}
+.card-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+}
+.heading {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+span {
+  color: #ffd569;
+}
+.mango-image {
+  width: 200px;
+  margin-top: 20px;
+}
+.button {
+  background-color: #007bff;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.mangos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+  .images-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
